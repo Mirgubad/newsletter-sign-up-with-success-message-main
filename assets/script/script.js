@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const successMessage = document.getElementById("success-message");
     const modal = document.getElementById("modal");
     const dismissButton = document.getElementById("dismiss-button");
+    const userEmail = document.getElementById("userEmail");
 
     if (!subscribeForm || !emailInput || !validationMessage || !successMessage || !modal || !dismissButton) return;
 
@@ -22,6 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (isValid) {
             successMessage.classList.replace("d-none", "d-block");
             modal.classList.add("d-none");
+            userEmail.textContent = email
+            userEmail.setAttribute("href", `mailto:${email}`);
             subscribeForm.reset(); // Reset input field after submission
         }
     });
