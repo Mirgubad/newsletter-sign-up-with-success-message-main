@@ -1,10 +1,7 @@
-# Frontend Mentor - Newsletter sign-up form with success message
-
-![Design preview for the Newsletter sign-up form with success message coding challenge](./preview.jpg)
 
 # 📝 Newsletter Sign-Up Form
+![Design preview for the Newsletter sign-up form with success message coding challenge](./preview.jpg)
 
-![Design preview for the Newsletter Sign-Up Form coding challenge](./design/desktop-preview.jpg)
 
 Welcome to the **Newsletter Sign-Up Form** project! This web application allows users to subscribe to monthly product updates with a success confirmation message.
 
