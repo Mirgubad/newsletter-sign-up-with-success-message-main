@@ -28,7 +28,7 @@ Follow these steps to run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/newsletter-signup-form.git
+git clone https://github.com/yourusername/newsletter-sign-up-with-success-message-main.git
 
 # Navigate to the project folder
 cd newsletter-signup-form
